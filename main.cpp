@@ -133,9 +133,9 @@ int main() {
             inversionMask &= ~(1 << positions[i]);
         }
 
-        short int invertedValue = shortValue ^ inversionMask;
-        std::cout << "Inverted short int value: " << invertedValue << std::endl;
-        displayBinaryShort(invertedValue);
+        shortValue ^= inversionMask;
+        std::cout << "Inverted short int value: " << shortValue << std::endl;
+        displayBinaryShort(shortValue);
     }
 
     std::cout << "\n___ Float Processing ___" << std::endl;
@@ -155,15 +155,11 @@ int main() {
         temp.f = floatValue;
 
         unsigned int inversionMask = 0xFFFFFFFF;
-
         for (size_t i = 0; i < positions.size(); ++i) {
-            if (positions[i] >= 0 && positions[i] <= 31) {
-                inversionMask &= ~(1U << positions[i]);
-            }
+            inversionMask &= ~(1U << positions[i]);
         }
 
         temp.u ^= inversionMask;
-
         std::cout << "Inverted float value: " << temp.f << std::endl;
         displayBinaryFloat(temp.f);
     }
