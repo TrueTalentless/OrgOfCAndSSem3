@@ -96,12 +96,11 @@ bool getBitPositions(int maxBits, std::vector<int>& positions) {
                 std::istringstream iss2(input);
                 int pos;
                 while (iss2 >> pos) {
-                    if (pos >= 0 && pos < maxBits) {
-                        positions.push_back(pos);
-                    } else {
+                    if (pos < 0 || pos >= maxBits) {
                         std::cout << "Bit position " << pos << " is out of range. Please enter positions between 0 and " << (maxBits - 1) << "." << std::endl;
-                        break;
+                        return false;
                     }
+                    positions.push_back(pos);
                 }
                 if (positions.size() != static_cast<size_t>(numBits)) {
                     std::cout << "Number of positions entered does not match the number specified. Please try again." << std::endl;
