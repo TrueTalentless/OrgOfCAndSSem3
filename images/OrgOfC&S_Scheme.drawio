@@ -969,7 +969,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0lNQ47CPvFLmEInRxMpe" name="get+displayFloat">
-    <mxGraphModel dx="1227" dy="7758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="7721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1232,22 +1232,28 @@
         <mxCell id="bxH0lEPJTm-Nx9U4-kYG-52" value="Не было прерывания?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;spacingLeft=8;spacingRight=8;spacingBottom=4;" parent="1" vertex="1">
           <mxGeometry x="20" y="-6940" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u3ayOKERbfvkmRkAvrIe-1" value="Вернуть true" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="u3ayOKERbfvkmRkAvrIe-1" value="Вернуть true" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="-6680" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u3ayOKERbfvkmRkAvrIe-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="u3ayOKERbfvkmRkAvrIe-1" target="bxH0lEPJTm-Nx9U4-kYG-43">
+        <mxCell id="u3ayOKERbfvkmRkAvrIe-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="u3ayOKERbfvkmRkAvrIe-1" target="bxH0lEPJTm-Nx9U4-kYG-43" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="-6650" as="sourcePoint" />
             <mxPoint x="270" y="-6670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u3ayOKERbfvkmRkAvrIe-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="u3ayOKERbfvkmRkAvrIe-1">
+        <mxCell id="u3ayOKERbfvkmRkAvrIe-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="u3ayOKERbfvkmRkAvrIe-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="-6630" as="sourcePoint" />
             <mxPoint x="270" y="-6670" as="targetPoint" />
             <Array as="points">
               <mxPoint x="220" y="-6630" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NQ7wPS670bRi8c9VChMl-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="-6560" as="sourcePoint" />
+            <mxPoint x="450" y="-6560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
